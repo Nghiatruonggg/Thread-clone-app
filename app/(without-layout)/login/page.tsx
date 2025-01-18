@@ -2,6 +2,9 @@ import Image from "next/image";
 import LoginImg from "@/public/Login_Img_Desktop.webp";
 
 const LoginPage = () => {
+    const inputClassname =
+        "w-full h-[55px] bg-input px-4 rounded-md placeholder:text-text placeholder:text-sm outline-[#1E1E1E] outline-1";
+
     return (
         <div className="relative w-full h-screen">
             <div className="absolute overflow-hidden w-full h-screen">
@@ -22,14 +25,14 @@ const LoginPage = () => {
 
                     <form className="space-y-3 mb-4" action="">
                         <input
-                            className="w-full h-[55px] bg-input px-4 rounded-md placeholder:text-text placeholder:text-sm outline-[#1E1E1E] outline-1"
+                            className={inputClassname}
                             type="text"
                             required
                             placeholder="Tên người dùng, số điện thoại hoặc email"
                         />
 
                         <input
-                            className="w-full h-[55px] bg-input px-4 rounded-md placeholder:text-text placeholder:text-sm outline-[#1E1E1E] outline-1"
+                            className={inputClassname}
                             type="password"
                             required
                             placeholder="Mật khẩu"
