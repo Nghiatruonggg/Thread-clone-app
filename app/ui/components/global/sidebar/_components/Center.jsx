@@ -11,6 +11,7 @@ const Center = () => {
         const IconComponent = icon.shape;
         return (
           <div key={i} className={wrapClassName}>
+
             <Link href={icon.href} className={icon.className}>
               <IconComponent />
             </Link>
