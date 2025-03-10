@@ -1,9 +1,11 @@
 const ThreadsIcon = ({className}: {className?: string} ) => {
+
     return (
         <svg
             aria-label="Threads"
             height="100%"
             fill="var(--logo-primary)"
+
             role="img"
             viewBox="0 0 192 192"
             width="100%"

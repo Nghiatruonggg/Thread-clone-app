@@ -1,4 +1,5 @@
 const ProfileIcon = ({ className }: { className?: string }) => {
+
     return (
         <svg
             aria-label="ProfileIcon"
@@ -13,6 +14,7 @@ const ProfileIcon = ({ className }: { className?: string }) => {
                 cy="7.25"
                 r="4"
                 // stroke="currentColor"
+
                 strokeWidth="2.5"
             ></circle>
             <path

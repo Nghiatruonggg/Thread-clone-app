@@ -28,6 +28,7 @@ const Icons: IconType = {
   Comment: CommentIcon,
   Repost: RepostIcon,
   Share: ShareIcon,
+
 };
 
 export default Icons;
