@@ -7,10 +7,10 @@ const wrapClassName = "w-[54px] h-[54px] flex justify-center items-center";
 const Center = () => {
   return (
     <div className="flex flex-col justify-between items-center gap-2">
-      {sideBarCenter.map((icon) => {
+      {sideBarCenter.map((icon, i) => {
         const IconComponent = icon.shape;
         return (
-          <div className={wrapClassName}>
+          <div key={i} className={wrapClassName}>
             <Link href={icon.href} className={icon.className}>
               <IconComponent />
             </Link>
