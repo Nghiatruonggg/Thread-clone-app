@@ -16,6 +16,7 @@ const HomeIcon = ({ className }: { className?: string }) => {
       ></path>
     </svg>
   );
+}
 
 
 export default HomeIcon;
