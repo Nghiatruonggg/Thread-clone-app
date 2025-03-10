@@ -1,7 +1,12 @@
+import MainContainer from "../ui/components/global/container/MainContainer";
+import NewsCard from "../ui/components/homepage/NewsCard";
+
 const Main = () => {
   return (
-    <span></span>
-  )
-}
+    <MainContainer pathname="Trang chủ">
+      <NewsCard />
+    </MainContainer>
+  );
+};
 
-export default Main
+export default Main;
