@@ -1,4 +1,4 @@
-const PinIcon = ({ className }: { className: string }) => {
+const PinIcon = ({ className }: { className?: string }) => {
     return (
         <svg
             aria-label="Pin to home"

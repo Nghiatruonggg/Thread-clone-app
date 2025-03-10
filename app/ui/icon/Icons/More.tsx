@@ -1,4 +1,5 @@
-const MoreIcon = ({ className }: { className: string }) => {
+const MoreIcon = ({ className }: { className?: string }) => {
+
     return (
         <svg
             aria-label="More"
